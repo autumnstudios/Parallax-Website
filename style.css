@@ -140,3 +140,16 @@ section img#mountains_front
     height: 300px;
     background-color: #1c0522;
 }
+
+#twitch-embed {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}

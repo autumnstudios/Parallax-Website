@@ -3,15 +3,17 @@
     <head>
         <title>Omegabait</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
             <a href="#" class="logo">Omegabait</a>
             <ul>
                 <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Platforms</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Contact</a></li>
+                <li><a href="#">Twitch</a></li>
+                <li><a href="#">Youtube</a></li>
             </ul>
         </header>
         <section>
@@ -21,12 +23,35 @@
             <img src="mountains_front.png" id="mountains_front">
         </section>
         <div class="sec" id="sec">
-            <h2>Scambaiting, redone by 5 year olds</h2>
-            <p>A manly man made an incredible website that founded the new-orleans nucluear waste to drinking water init</p>
+            <h2 id="about">Introducing Omegabait: The Scam Baiter Dedicated to Making a Positive Impact</h2>
+            <p>Welcome to my world of scam baiting, where I am dedicated to making a positive difference in the world of online scams. As a passionate scam baiter, my goal is to waste the time of scammers, prevent other victims from being scammed, and advocate for legislative action against scammers. While my primary focus is on preventing individuals from falling victim to fraudulent schemes and holding scammers accountable for their actions, I find great enjoyment in the process of baiting scammers. The satisfaction of exposing their tactics and wasting their time is a source of entertainment for me, and it adds an element of excitement to my work as a scam baiter. By using my skills and knowledge, I make a positive impact on the world while having a good time in the process.</p>
             <br><br>
+            <p>If you're interested in learning about online scams and how to protect yourself from falling victim to these schemes, then my content is perfect for you. With my expertise in scam baiting, I provide valuable insights into the tactics used by scammers and the warning signs to look out for. By watching my content, you'll learn how to recognize scams and avoid falling victim to them, while also getting a behind-the-scenes look at the world of scam baiting. You'll also see the impact that my work has on scammers, as I waste their time and prevent them from defrauding others. And with my sense of humor and entertaining approach to scam baiting, you're sure to have a good time while learning about this important topic. So if you're looking for informative, engaging, and entertaining content, look no further than my channel.</p>
             <br><br>
+            <h2 style="text-align: center;">Most Recent Stream</h3>
+            <br>
+            <div id="twitch-embed"></div>
+
+            <!-- Load the Twitch embed script -->
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+            <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+            <script type="text/javascript">
+            new Twitch.Player("twitch-embed", {
+                video: "1753063637",
+                width: "800px",
+                height: "600px"
+            });
+            </script>
+            <br>
+            <h2>Contact Me</h2>
+            <p>Email - <a href="mailto:example@gmail.com">example@gmail.com</a></p>
         </div>
+        <!-- Add a placeholder for the Twitch embed -->
+        
+
         <div class="transition"></div>
+        
         
         <script>
             let stars = document.getElementById('stars');
